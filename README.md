@@ -1,4 +1,4 @@
-tipMe
+## tipMe
 
 tipMe is a tip calculator PHP page.
 
