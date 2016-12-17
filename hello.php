@@ -38,7 +38,11 @@
 				$tip = $bill * ($tipPercent/100);
 				$tip = number_format($tip, 2);
 				$total = number_format($bill + $tip, 2);
-				if(($splitCount > 0 && is_numeric($splitCount)) || $splitCount == NULL) {
+				if($splitCount == NULL) {
+					echo "Calculated tip: $$tip <br>";
+					echo "Total is: $$total <br>";
+				}
+				else if(($splitCount > 0 && is_numeric($splitCount))) {
 					$splitBill = number_format($total / $splitCount, 2);
 					echo "Calculated tip: $$tip <br>";
 					echo "Total is: $$total <br>";
