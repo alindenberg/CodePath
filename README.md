@@ -1,4 +1,4 @@
-# Pre-work - *Name of App Here*
+tipMe
 
 tipMe is a tip calculator PHP page.
 
@@ -37,7 +37,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 First time using PHP, amazed by the ease of intertwining it with HTML and the power it has. Opened my eyes to the world of PHP that is bashed by some developers; excited to find out more for myself.
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2016 Austin Lindenberg
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
